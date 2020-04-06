@@ -4,7 +4,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
-        port: 8031
+        port: 8032
     },
     entry: "./index.js",
     output: {
